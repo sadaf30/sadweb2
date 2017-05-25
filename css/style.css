@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600');
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -11,13 +12,18 @@
 h1{
 	text-align: center;
 	font-size: 60px;
-	font-family: Impact;
+	font-family: 'Holtwood One SC', serif;
 	color:  #fff;
 	margin-top: 40px;
+}
 
-	
-
-
+h2{
+	color:  #007a99;
+	padding: 30px;
+	text-decoration: underline;
+	background-color: powderblue;
+	margin: 40px 0;
+	padding: 20px;
 }
 
 nav ul{
@@ -49,29 +55,30 @@ nav a:hover{
 	text-align: center;
 
 }
-
+/*utility class===========================*/
 .content{
-	margin: 60px 60px;
+	margin: 80px 80px;
 	text-align: center;
 	background-color: #fff;
-	padding: 30px;
+	padding: 40px;
 	color:  #00a3cc;
 	font-size: 20px;
-	font-family: Impact;
+	font-family: 'Oswald', sans-serif;
+	font-style: bold;
 	
 }
-.content h2{
-	color:  #007a99;
-	padding: 30px;
-	text-decoration: underline;
-}
+
 .content p{
-	margin-bottom: 30px;
+	margin: 60px;
 }
+
 .img-50{
 	width: 50%;
 	display: block;
 	margin:10px auto;
+	}
+	.ref{
+		color: powderblue;
 	}
 
 
