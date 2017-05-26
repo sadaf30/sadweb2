@@ -73,13 +73,60 @@ nav a:hover{
 }
 
 .img-50{
-	width: 50%;
+	width: 80%;
 	display: block;
 	margin:10px auto;
 	}
 .ref{
 		color: powderblue;
 	}
+	
+
+
+.box{
+	border:2px solid powderblue;
+	color:#00a3cc;
+	margin:10px;
+	padding:10px;
+	margin-left: 40px;
+	font-size: 20px;
+
+	}
+	.lbl{
+		margin-left:100px;
+		padding: 10px;
+
+	}
+	.lblcom{
+		margin-left:105px;
+	}
+
+	.txarea{
+	border:2px solid powderblue;
+	color:#00a3cc;
+	margin:10px;
+	padding:10px;
+	margin-bottom: 0;
+	font-size: 20px;
+	}
+
+	.sub{
+		
+		padding: 10px;
+		margin-left:25px;
+	}
+	.subbox{
+		margin: 30px;
+	}
+	.done{
+	padding: 20px;
+	background-color: powderblue;
+	border:5px solid #EAF2F8  ;
+	color:#007a99;
+	font-size: 20px;
+
+	}
+
 
 
 
